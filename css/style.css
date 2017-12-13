@@ -1,0 +1,169 @@
+/* style sheet */
+
+/*=========================BaseRules=====================*/
+
+body h1 h2 h3 h4 h5 h6 ul ol li table div{ margin: 0; padding: 0; font-family: 'Lato', sans-serif;}
+
+
+/*====================== Layout Rules=======================*/
+.block-width{width: 900px; margin: 0 auto; padding: 30px 0 30px 0;}
+.bg-color{background-color:#ff8e62;}
+.color-text{color:#ef814d;}
+.padding{padding: 20px 0;}
+.text-size{font-size:45px;}
+
+/*======================= Module Rules=========================== */
+
+/* ======================header block--1============================ */
+.header{ background: url("../images/main_bg.jpg") no-repeat top left; height:820px; background-size: cover;}
+
+.header__text{font-size:17px; color:#ffffff; margin:20px 15px;font-style: italic; font-family: lato;}
+
+.header__images ul li{list-style: none; float: left; margin: 40px 10px 0 0;}
+
+.headerlist__signin--btn{float: right !important;}
+
+.signin--btn{font-size:17px; border-radius:0; color:#ffffff; background-color: #f08655; border: 0; padding: 10px 30px;}
+
+.signin--btn:hover{background-color: #eb8a5d; color: #ffffff;}
+
+.header__block--font{font-family: 'Gloria Hallelujah', cursive; color:#ffffff;font-size: 25px; margin:20px 0 0}
+
+.text{font-size: 50px; color: #f19063; margin: 36px 0 0 0; font-family: 'Lato', sans-serif;}
+
+.header__img--style{margin:19px 0 0 0;}
+
+.beginer{font-size: 45px; color: #ffffff; }
+
+
+/*======================= Music__block--2==============================*/
+
+.music__block{background-color: #ffffff; margin:45px;}
+
+.music__block-skin{font-size: 28px !important; font-family: 'Lato'; text-align: center !important;}
+
+.structure{width:363px;}
+
+.music__block--text{ margin: 45px; font-size: 53px;}
+
+/*========================learnmusic__block--3=========================== */
+
+.learnmusic__block-img{background: url("../images/talent_bg.jpg") no-repeat top left ;height: 1070px; background-size:cover;
+     padding: 30px; color:#ffffff}
+
+.check-icon { display: table-cell; vertical-align: top; }
+
+.check-text { padding: 0 0 0 20px; display: table-cell; vertical-align: middle; text-align: left; font-size: 18px;}
+
+.learnmusic__text{font-size: 50px; color:#ffffff;}
+
+.proof-text{font-size: 50px; margin:0 0 20px 0;}
+
+.block-text{font-size:19px;}
+
+.learnmusic__list{font-size: 21px;}
+
+.block_image{display: table-cell; text-align: left;}
+
+.talent-block{margin: 45px 0 0 0;}
+
+.self-block{font-size: 35px;}
+
+
+/*=============================Ukulele block--4======================== */
+
+.uke__block{margin: 20px 0 0 0;}
+
+.photo{display: table-cell;}
+
+.photo__image{border-radius: 0; padding: 7px;}
+
+.uke__block-text{display: table-cell; text-align: left; padding: 0 0 0 55px;}
+
+.uke__bottom_block{margin: 0 0 30px 0;}
+
+.text_aside-img{margin:3px 0 34px 0;}
+
+.bottom_block--no{font-size:45px;margin: 0 0 0 0;}
+
+.bottom_block_text{font-size: 20px; }
+
+
+/* ====================block--5====================== */
+.music__video-block{margin:35px 0 35px 0;}
+
+.icon__caption{font-size:30px; font-weight: bold; }
+
+.photo__img{margin:-52px 0 0 -40px;}
+
+.photo__img-in{border:5px solid #eb8a5d; border-radius: 5px;}
+
+
+
+/* =====================Block-6======================= */
+.chord{margin: 25px 0 25px 0; font-size:45px;}
+
+.chord_block{ left:23%; position: inherit; }
+
+.learning__list ul li{    background: url(../images/veena_img.png) no-repeat top left; margin: 10px 0;background-size: 18px auto;
+    list-style: none; text-align: left;font-size: 16px;line-height: 30px; padding: 0 0 0 31px;}
+
+.list__below-text{ margin: 0 0 35px 0;}
+
+
+
+/* ==========================Carousel_block--7===========================*/
+.carousel__block-img{background: url("../images/talent_bg.jpg") no-repeat top left ;height: 600px; color:#ffffff;}
+.carousel__block-img .carousel__btn{top:25%;}
+.carousel-control.carousel__btn-bgc{background: none;}
+.testimonials{font-size:50px; margin: 0 0 30px 0;}
+.carousel__indicator-slides{right: 15%; bottom: 40%; width: 25%; left: auto;}
+.carousel__top-line{position: relative; display: block;}
+.carousel__top-line::before {content: '';border: 1px solid #ff8e62;width: 100%;position: absolute;top: 40px;left: 0;}
+.jennifer_photo img{margin: -9px auto; position: relative; z-index: 99;}
+.img--text{margin:20px 0 0 0;}
+
+/*===================== Block--8 =============================*/
+.text_above-img{font-size:35px;}
+.book__img{margin: 30px 0 50px 0;}
+.book__img--in{border:4px solid #f36b2c;}
+
+/* ======================Block--9 ===============================*/
+.version__block{padding: 0;}
+.version__block-in{ height:260px;  padding: 20px;}
+.border{border-left: 2px solid #ffffff;}
+.dollar-symbol{    background: #2b2b2b;
+    border-radius: 100%;
+    padding: 30px 20px;
+    color: #fff;
+    position: absolute;
+    bottom: -56px;
+    left: 37%;
+    font-size: 40px;
+    line-height: 40px;
+}
+.version__block-intext{background: #fff;
+    color: #000;
+    padding: 40px;
+}
+.version__block-intext a{
+font-size: 25px;
+line-height: 50px;
+display: inline-block;
+width: 300px;
+color: #fff;
+margin: 45px 10px;
+}
+
+/* =========================Block--10===================== */
+
+.plus__icon{background-color: #f19063; font-size: 20px !important; padding:15px;color:#ffffff;}
+.plus__icon-bg{padding: 0; background-color: #ffffff !important;}
+.plus__icon--color{border-radius: 0 !important; border-color: #f08655;}
+.icon-text{font-size:22px;}
+/* .plus__icon-a a:hover{text-decoration: none !important;} */
+.plus__icon-a a:focus{text-decoration: none !important;}
+
+
+/* ======================Footer ================================*/
+.footer__block{background-color: #333; color:#ffffff;margin:20px 0 0 0; padding: 30px 0 35px 0; font-size: 17px;}
